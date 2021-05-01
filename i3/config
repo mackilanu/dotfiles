@@ -20,7 +20,7 @@ gaps outer 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono 10
+font pango:DejaVu Sans Mono 9
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -35,6 +35,7 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec setxkbmap se
 exec feh --bg-scale ~/Downloads/6b33371a9f235e5fafa878f59b0a992b.png 
 exec --no-startup-id tuxedo-control-center
+exec dunst &
 
 for_window [class=".*"] border pixel 0
 

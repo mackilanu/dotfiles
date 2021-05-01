@@ -1665,3 +1665,474 @@
 [05/01/21, 21:00:03:113] info: [API-Q] (T03KRMF9P) noversion-1619895603.111 Flannel users/info is ENQUEUED 
 [05/01/21, 21:00:03:114] info: [API-Q] (T03KRMF9P) noversion-1619895603.111 Flannel users/info is ACTIVE 
 [05/01/21, 21:00:03:260] info: [API-Q] (T03KRMF9P) noversion-1619895603.111 Flannel users/info is RESOLVED 
+[05/01/21, 23:26:01:063] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.15.0, linux 5.11.16-arch1-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[05/01/21, 23:26:01:063] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 3
+}
+[05/01/21, 23:26:01:064] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "Europe/Stockholm",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.15.0",
+  "PACKAGE_MANIFEST.commit": "4dffcb7",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/01/21, 23:26:01:064] info: Starting Sentry 
+[05/01/21, 23:26:01:065] info: Creating desktop interface object 
+[05/01/21, 23:26:01:065] info: Exposing context bridge 
+[05/01/21, 23:26:01:065] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 20,
+      "y": 53,
+      "width": 1880,
+      "height": 1007
+    }
+  }
+} 
+[05/01/21, 23:26:01:065] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 187
+} 
+[05/01/21, 23:26:01:065] info: Store: UPDATE_SETTINGS {
+  "keyboardLayout": "se"
+} 
+[05/01/21, 23:26:01:065] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "unloaded"
+} 
+[05/01/21, 23:26:01:065] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/01/21, 23:26:01:065] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 224
+} 
+[05/01/21, 23:26:01:066] info: Store: MAIN_WINDOW_SHOWN  
+[05/01/21, 23:26:01:066] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 20,
+      "y": 53,
+      "width": 1880,
+      "height": 1007
+    }
+  }
+} 
+[05/01/21, 23:26:01:066] info: Store: CLEAR_NOTIFICATIONS  
+[05/01/21, 23:26:01:066] info: [METRICS] Starting timers for metrics collection 
+[05/01/21, 23:26:01:066] info: [PERF] setupGantry_w begin 461ms 
+[05/01/21, 23:26:01:066] info: [APP] client 
+[05/01/21, 23:26:01:066] info: [DATE/TIME] 1619904357347 "2021-05-01T21:25:57.347Z" 
+[05/01/21, 23:26:01:066] info: [VERSION] version_hash: 39530a29523bb922f8051c2bc6eee9ac135541ea 
+[05/01/21, 23:26:01:066] info: [VERSION] version_ts: 1619829438 
+[05/01/21, 23:26:01:067] info: [VERSION] min_version_data_ts: 1581290339 
+[05/01/21, 23:26:01:067] info: [AUTH] authCookieChanged: started listening to the event 
+[05/01/21, 23:26:01:067] info: [AUTH] Credentials are fresh (psc=1619889201, csc=1619889201) 
+[05/01/21, 23:26:01:067] info: [LOCAL-CONFIG] ingestIncomingConfig(): no incoming payload to process; current teams: T03KRMF9P:UCC3YUT28 
+[05/01/21, 23:26:01:067] info: [BOOT] Initial team ID: T03KRMF9P 
+[05/01/21, 23:26:01:067] info: [PERF] setupGantry_w took 10.23ms 
+[05/01/21, 23:26:01:067] info: [PERF] bootClient_w begin 475ms 
+[05/01/21, 23:26:01:067] info: [BOOT] (T03KRMF9P) Initializing boot 
+[05/01/21, 23:26:01:067] info: [BOOT] (T03KRMF9P) Minimum supported data version is 1581290339; currently on 1619829438 
+[05/01/21, 23:26:01:067] info: [PERSIST] (T03KRMF9P) Getting state from IndexedDB 
+[05/01/21, 23:26:01:067] info: [PERSIST] (T03KRMF9P) Successfully got state from IndexedDB 
+[05/01/21, 23:26:01:068] info: [BOOT] (T03KRMF9P) Booting with persisted store 
+[05/01/21, 23:26:01:068] info: [TRACER] Tracing is not sampled by default for this session. 
+[05/01/21, 23:26:01:068] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[05/01/21, 23:26:01:068] info: [PERSIST] (T03KRMF9P) Checking for persistence method changes 
+[05/01/21, 23:26:01:068] info: [PERSIST] (T03KRMF9P) Preparing state for hydration 
+[05/01/21, 23:26:01:068] info: [PERSIST] (T03KRMF9P) State prepared for hydration 
+[05/01/21, 23:26:01:068] info: [PERSIST] (T03KRMF9P) Checking for required data 
+[05/01/21, 23:26:01:068] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[05/01/21, 23:26:01:068] info: [BOOT] (T03KRMF9P) Booting warm 
+[05/01/21, 23:26:01:068] info: [DESKTOP-MIDDLEWARE] (T03KRMF9P) Forwarding redux payload to desktop ["theme","notificationPrefs","connectivityPrefs","featureFlags","unreads","locale","version","userId"] 
+[05/01/21, 23:26:01:068] info: [(?)] robust_route_flex_parsing enabled 
+[05/01/21, 23:26:01:069] info: [DESKTOP-SIDE-EFFECT] (T03KRMF9P) Team T03KRMF9P booted, creating delegate 
+[05/01/21, 23:26:01:069] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "T03KRMF9P"
+} 
+[05/01/21, 23:26:01:069] info: Setting global desktop delegate 
+[05/01/21, 23:26:01:069] info: [DESKTOP-SIDE-EFFECT] (T03KRMF9P) Attempted boot for all workspaces, signaling desktop 
+[05/01/21, 23:26:01:069] info: [BOOT] (T03KRMF9P) Connecting to socket 
+[05/01/21, 23:26:01:069] info: [SOCKET-MANAGER] (T03KRMF9P) Changing from never_connected to prov_connect 
+[05/01/21, 23:26:01:069] info: [SOCKET-MANAGER] (T03KRMF9P) will stay in prov_connect state for up to 10000 ms 
+[05/01/21, 23:26:01:069] info: [SOCKET-MANAGER] (T03KRMF9P) Changing from prov_connect to prov_connecting 
+[05/01/21, 23:26:01:069] info: [SOCKET-MANAGER] (T03KRMF9P) will stay in prov_connecting state for up to 35000 ms 
+[05/01/21, 23:26:01:069] info: [ENDPOINT-MANAGER] (T03KRMF9P) No stale versions to clear. 
+[05/01/21, 23:26:01:069] info: [TRACER] (T03KRMF9P) Tracing is not sampled by default for this team. 
+[05/01/21, 23:26:01:070] info: [BOOT] (T03KRMF9P) Fetching fresh boot data after booting with persisted store 
+[05/01/21, 23:26:01:070] info: [BOOT] (T03KRMF9P) Skipping persisted store if it exists because we're forcing fresh data fetch anyway 
+[05/01/21, 23:26:01:070] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.184 client.boot called with reason: deferred-data 
+[05/01/21, 23:26:01:070] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.184 client.boot is ENQUEUED 
+[05/01/21, 23:26:01:070] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.184 client.boot is ACTIVE 
+[05/01/21, 23:26:01:070] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.188 api.features called 
+[05/01/21, 23:26:01:070] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.188 api.features is ENQUEUED 
+[05/01/21, 23:26:01:070] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.189 experiments.getByUser called 
+[05/01/21, 23:26:01:070] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.189 experiments.getByUser is ENQUEUED 
+[05/01/21, 23:26:01:070] info: [BOOT] Booting into channel: C03KVERMC 
+[05/01/21, 23:26:01:071] info: [BOOT] (T03KRMF9P) (T03KRMF9P) Mounting client 
+[05/01/21, 23:26:01:071] info: [PERF] (T03KRMF9P) First meaningful paint: 2384ms 
+[05/01/21, 23:26:01:071] info: [DRAFTS] (T03KRMF9P) There are no channels with drafts 
+[05/01/21, 23:26:01:071] info: [BOOT] (T03KRMF9P) Beaconed client boot mount success 
+[05/01/21, 23:26:01:071] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.495 sharedInvites.canGetLink called with reason: sidebar-mount 
+[05/01/21, 23:26:01:071] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.495 sharedInvites.canGetLink is ENQUEUED 
+[05/01/21, 23:26:01:071] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.495 sharedInvites.canGetLink is ACTIVE 
+[05/01/21, 23:26:01:071] info: [PERF] (T03KRMF9P) Logged time to visible (TTV): 2693.779999999947 
+[05/01/21, 23:26:01:071] info: [WORKSPACE] (T03KRMF9P) Workspace mounted, transitioning focus to primary view message-pane_message_input 
+[05/01/21, 23:26:01:071] info: [MESSAGE-LIST] (T03KRMF9P) requestAround channelId: C03KVERMC isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[05/01/21, 23:26:01:071] info: [HISTORY-FETCH] (T03KRMF9P) Fetching history for message pane: C03KVERMC oldest: null latest: null 
+[05/01/21, 23:26:01:071] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.854 conversations.history called with reason: message-pane/requestHistory 
+[05/01/21, 23:26:01:071] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.854 conversations.history is ENQUEUED 
+[05/01/21, 23:26:01:071] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.854 conversations.history is ACTIVE 
+[05/01/21, 23:26:01:071] info: [PERF] bootClient_w took 2509.9ms 
+[05/01/21, 23:26:01:071] info: [API-Q] (T03KRMF9P) noversion-1619904359.870 Flannel users/list called with reason: flannel-call:users/list 
+[05/01/21, 23:26:01:072] info: [API-Q] (T03KRMF9P) noversion-1619904359.870 Flannel users/list is ENQUEUED 
+[05/01/21, 23:26:01:072] info: [API-Q] (T03KRMF9P) noversion-1619904359.870 Flannel users/list is ACTIVE 
+[05/01/21, 23:26:01:072] info: [BOOT] Booting other teams:  
+[05/01/21, 23:26:01:072] info: [MIN-VERSION] Starting client min-version poll. 
+[05/01/21, 23:26:01:072] info: [PERSIST] Purging persisted models, except for the following teamIds ["T03KRMF9P"] 
+[05/01/21, 23:26:01:072] info: [WD] All assets have reported back; s: 9; f: 0 
+[05/01/21, 23:26:01:072] info: [MESSAGE-LIST] (T03KRMF9P) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0 
+[05/01/21, 23:26:01:072] info: [CHECK-UNREADS] (T03KRMF9P) Checking unreads after workspace became focused 
+[05/01/21, 23:26:01:072] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:26:01:072] info: [CHECK-UNREADS] (T03KRMF9P) Checking unreads after window became focused 
+[05/01/21, 23:26:01:072] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:26:01:072] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/01/21, 23:26:01:073] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.495 sharedInvites.canGetLink is RESOLVED 
+[05/01/21, 23:26:01:073] info: [SERVICE-WORKER] registration success {} 
+[05/01/21, 23:26:01:073] info: [SERVICE-WORKER-STATE] initial activated 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904359.854 conversations.history is RESOLVED 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.190 calendar.getInstalledCalendars called with reason: calendar-get-installed-calendars 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.190 calendar.getInstalledCalendars is ENQUEUED 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.190 calendar.getInstalledCalendars is ACTIVE 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.236 drafts.list called with reason: boot-team 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.236 drafts.list is ENQUEUED 
+[05/01/21, 23:26:01:073] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.236 drafts.list is ACTIVE 
+[05/01/21, 23:26:01:073] info: [DRAFTS] (T03KRMF9P) No local drafts - skipping fetch to purge inactive drafts 
+[05/01/21, 23:26:01:074] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.239 promo.banner called with reason: fetch-megaphone-notification-data 
+[05/01/21, 23:26:01:074] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.239 promo.banner is ENQUEUED 
+[05/01/21, 23:26:01:074] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.239 promo.banner is ACTIVE 
+[05/01/21, 23:26:01:074] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.243 team.whatsNew called with reason: boot-team 
+[05/01/21, 23:26:01:074] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.243 team.whatsNew is ENQUEUED 
+[05/01/21, 23:26:01:074] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.243 team.whatsNew is ACTIVE 
+[05/01/21, 23:26:01:074] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/01/21, 23:26:01:074] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/01/21, 23:26:01:074] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 20,
+      "y": 42,
+      "width": 1880,
+      "height": 1018
+    }
+  }
+} 
+[05/01/21, 23:26:01:074] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/01/21, 23:26:01:074] info: Store: SYNC (Empty) 
+[05/01/21, 23:26:01:074] info: Store: SELECTION_CHANGED T03KRMF9P 
+[05/01/21, 23:26:01:074] info: Store: REDUX_UPDATE_FROM_WEBAPP (T03KRMF9P) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId] 
+[05/01/21, 23:26:01:074] info: Store: SYNC Synced 1 workspaces with IDs [T03KRMF9P] 
+[05/01/21, 23:26:01:075] info: Store: SELECTION_CHANGED T03KRMF9P 
+[05/01/21, 23:26:01:075] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[05/01/21, 23:26:01:075] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 3,
+  "interval": 2129
+} 
+[05/01/21, 23:26:01:075] info: Store: UPDATE_SETTINGS {
+  "forceHiddenInsetTitleBar": false
+} 
+[05/01/21, 23:26:01:075] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/01/21, 23:26:01:075] info: Store: UPDATE_SETTINGS {
+  "trafficLightPosition": {
+    "x": 14,
+    "y": 22
+  }
+} 
+[05/01/21, 23:26:01:075] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/01/21, 23:26:01:075] info: Store: UPDATE_SETTINGS {
+  "isIAEnabled": true
+} 
+[05/01/21, 23:26:01:075] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/01/21, 23:26:01:075] info: Store: EXTEND_MENU global: menucategory-file,menucategory-jump-to 
+[05/01/21, 23:26:01:075] info: Store: EXTEND_MENU T03KRMF9P: menucategory-file,menucategory-edit,menucategory-history,menucategory-help 
+[05/01/21, 23:26:01:075] info: Store: EXTEND_MENU T03KRMF9P: menucategory-file,menucategory-edit,menucategory-history,menucategory-help 
+[05/01/21, 23:26:01:075] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.184 client.boot is RESOLVED 
+[05/01/21, 23:26:01:076] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.188 api.features is ACTIVE 
+[05/01/21, 23:26:01:076] info: [PLATFORM-CHANNEL-ACTI] (T03KRMF9P) setting count for channel C03KVERMC to 0, and marking channel as stale. 
+[05/01/21, 23:26:01:076] info: [PINS] (T03KRMF9P) Pins count updated for channel C03KVERMC: 2 
+[05/01/21, 23:26:01:076] info: [UNREAD-COUNTS] (T03KRMF9P) Counting unreads in C03KVERMC because (28) timestamps added 
+[05/01/21, 23:26:01:076] info: [UNREAD-COUNTS] (T03KRMF9P) Checking unreads in C03KVERMC after a new message 
+[05/01/21, 23:26:01:076] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:26:01:076] info: [UNKNOWN-FETCH-MANAGER] (T03KRMF9P) requesting _all_actions (1) 
+[05/01/21, 23:26:01:076] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.381 apps.actions.v2.list called with reason: list-message-actions 
+[05/01/21, 23:26:01:076] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.381 apps.actions.v2.list is ENQUEUED 
+[05/01/21, 23:26:01:076] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.381 apps.actions.v2.list is ACTIVE 
+[05/01/21, 23:26:01:076] info: Network status check {
+  "elapsed_time_ms": 2855,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/01/21, 23:26:01:076] info: [MESSAGE-LIST] (T03KRMF9P) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 28 
+[05/01/21, 23:26:01:077] info: [CHECK-UNREADS] (T03KRMF9P) unreadLineVisible updated: false -> true 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) Changing from prov_connecting to prov_connected 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) will stay in prov_connected state for up to 60000 ms 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) Changing from prov_connected to prov_finalize 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) will stay in prov_finalize state for up to 10000 ms 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) Changing from prov_finalize to prov_finalizing 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) will stay in prov_finalizing state for up to 10000 ms 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) Changing from prov_finalizing to connected 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) will stay in connected state for up to Infinity ms 
+[05/01/21, 23:26:01:077] info: [SOCKET-MANAGER] (T03KRMF9P) Connected to primary region 
+[05/01/21, 23:26:01:077] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.762 users.customStatus.list called with reason: fetchCustomStatusOnReconnect 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.762 users.customStatus.list is ENQUEUED 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.762 users.customStatus.list is ACTIVE 
+[05/01/21, 23:26:01:078] info: [EVENTLOG] (T03KRMF9P) fr=false, lc=false, lt=1619891478.369000 
+[05/01/21, 23:26:01:078] info: [EVENTLOG] (T03KRMF9P) fetching events since 1619891478.369000 (12883 seconds ago) 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.765 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.765 ublockworkaround.history is ENQUEUED 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.765 ublockworkaround.history is ACTIVE 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.767 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.767 ublockworkaround.history is ENQUEUED 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.767 ublockworkaround.history is ACTIVE 
+[05/01/21, 23:26:01:078] info: [MESSAGE-HISTORY] (T03KRMF9P) Resetting reachedEnd 
+[05/01/21, 23:26:01:078] info: [PRESENCE_PROMPT] (T03KRMF9P) ignoring prompt due to presence (active) 
+[05/01/21, 23:26:01:078] info: [UNREAD-COUNTS] (T03KRMF9P) Fetching counts 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.772 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.772 client.counts is ENQUEUED 
+[05/01/21, 23:26:01:078] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.772 client.counts is ACTIVE 
+[05/01/21, 23:26:01:078] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.188 api.features is RESOLVED 
+[05/01/21, 23:26:01:078] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.189 experiments.getByUser is ACTIVE 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.190 calendar.getInstalledCalendars is RESOLVED 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) noversion-1619904359.870 Flannel users/list is RESOLVED 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.236 drafts.list is RESOLVED 
+[05/01/21, 23:26:01:079] info: [DND] (T03KRMF9P) Preparing to fetch DND times for the following members: UCC3YUT28,ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.796 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.796 dnd.info is ENQUEUED 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.796 dnd.info is ACTIVE 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.798 dnd.teamInfo called with reason: getDndTimesForSubscribedMembers:self 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.798 dnd.teamInfo is ENQUEUED 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.798 dnd.teamInfo is ACTIVE 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.239 promo.banner is RESOLVED 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.243 team.whatsNew is RESOLVED 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.381 apps.actions.v2.list is RESOLVED 
+[05/01/21, 23:26:01:079] info: [HISTORY-FETCH] (T03KRMF9P) Fetching history for message pane: C03KVERMC oldest: 1619852407.053600 latest: null 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.856 conversations.history called with reason: message-pane/requestHistory 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.856 conversations.history is ENQUEUED 
+[05/01/21, 23:26:01:079] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.856 conversations.history is ACTIVE 
+[05/01/21, 23:26:01:080] info: [CHECK-UNREADS] (T03KRMF9P) unreadLineVisible updated: true -> false 
+[05/01/21, 23:26:01:080] info: Store: SET_NETWORK_STATUS online 
+[05/01/21, 23:26:01:080] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:26:01:080] info: [UNKNOWN-FETCH-MANAGER] (T03KRMF9P) requesting T03KRMF9P:BJJV1FENM (1) 
+[05/01/21, 23:26:01:080] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.902 apps.profile.get called with reason: fetch-legacy-app-profile 
+[05/01/21, 23:26:01:080] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.902 apps.profile.get is ENQUEUED 
+[05/01/21, 23:26:01:080] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.902 apps.profile.get is ACTIVE 
+[05/01/21, 23:26:01:080] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.908 calendar.user.info called with reason: calendar-get-user-info 
+[05/01/21, 23:26:01:080] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.908 calendar.user.info is ENQUEUED 
+[05/01/21, 23:26:01:080] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.908 calendar.user.info is ACTIVE 
+[05/01/21, 23:26:01:080] info: [DRAFTS] (T03KRMF9P) No active drafts 
+[05/01/21, 23:26:01:080] info: [DRAFTS] (T03KRMF9P) Successfully fetched all active and inactive drafts ✨ 
+[05/01/21, 23:26:01:080] info: [PERSIST] Purged persisted models [] 
+[05/01/21, 23:26:01:081] info: [UNKNOWN-FETCH-MANAGER] (T03KRMF9P) received _all_actions (1) 
+[05/01/21, 23:26:01:081] info: [MESSAGE-LIST] (T03KRMF9P) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 28 
+[05/01/21, 23:26:01:081] info: [BOOT-QUEUE] T03KRMF9P noversion-1619904359.189 experiments.getByUser is RESOLVED 
+[05/01/21, 23:26:01:081] info: [API-Q] (T03KRMF9P) noversion-1619904361.045 Flannel users/info called with reason: flannel-call:users/info 
+[05/01/21, 23:26:01:081] info: [API-Q] (T03KRMF9P) noversion-1619904361.045 Flannel users/info is ENQUEUED 
+[05/01/21, 23:26:01:081] info: [API-Q] (T03KRMF9P) noversion-1619904361.045 Flannel users/info is ACTIVE 
+[05/01/21, 23:26:01:086] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.767 ublockworkaround.history is RESOLVED 
+[05/01/21, 23:26:01:087] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.765 ublockworkaround.history is RESOLVED 
+[05/01/21, 23:26:01:087] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.798 dnd.teamInfo is RESOLVED 
+[05/01/21, 23:26:01:088] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.772 client.counts is RESOLVED 
+[05/01/21, 23:26:01:088] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.796 dnd.info is RESOLVED 
+[05/01/21, 23:26:01:088] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.856 conversations.history is RESOLVED 
+[05/01/21, 23:26:01:089] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.762 users.customStatus.list is RESOLVED 
+[05/01/21, 23:26:01:102] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.908 calendar.user.info is RESOLVED 
+[05/01/21, 23:26:01:103] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[05/01/21, 23:26:01:104] info: [EVENTLOG] (T03KRMF9P) nothing to process 
+[05/01/21, 23:26:01:105] info: [EVENTLOG] (T03KRMF9P) nothing to process 
+[05/01/21, 23:26:01:106] info: [EVENTLOG] (T03KRMF9P) fetched finish (cancelled? false) 
+[05/01/21, 23:26:01:106] info: [EVENTLOG] (T03KRMF9P) dispatching signal and clearing timestamp 
+[05/01/21, 23:26:01:106] info: [DND] (T03KRMF9P) Fetched DND info for the following members: ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7 
+[05/01/21, 23:26:01:107] info: [DND] (T03KRMF9P) Checking for changes in DND status for the following members: ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7 
+[05/01/21, 23:26:01:110] info: [DND] (T03KRMF9P) Members with DND changes: ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7 
+[05/01/21, 23:26:01:110] info: [DND] (T03KRMF9P) Will check for changes in DND status again in 5 minutes 
+[05/01/21, 23:26:01:112] info: [COUNTS] (T03KRMF9P) Applying counts to channels 
+[05/01/21, 23:26:01:116] info: [COUNTS] (T03KRMF9P) Threads has_unreads:false mention_count:0 
+[05/01/21, 23:26:01:117] info: [COUNTS] (T03KRMF9P) Completed counts processing 
+[05/01/21, 23:26:01:118] info: [DND] (T03KRMF9P) Fetched DND info for the following member: UCC3YUT28 
+[05/01/21, 23:26:01:119] info: [DND] (T03KRMF9P) Checking for changes in DND status for the following members: ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7,UCC3YUT28 
+[05/01/21, 23:26:01:119] info: [DND] (T03KRMF9P) Will check for changes in DND status again in 5 minutes 
+[05/01/21, 23:26:01:123] info: [PLATFORM-CHANNEL-ACTI] (T03KRMF9P) Not updating count for channel C03KVERMC, as count was already set to 0 
+[05/01/21, 23:26:01:127] info: [UNREAD-COUNTS] (T03KRMF9P) Counting unreads in C03KVERMC because (1) timestamps added 
+[05/01/21, 23:26:01:128] info: [UNREAD-COUNTS] (T03KRMF9P) Checking unreads in C03KVERMC after a new message 
+[05/01/21, 23:26:01:128] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:26:01:161] info: [MESSAGE-LIST] (T03KRMF9P) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 28 
+[05/01/21, 23:26:01:175] info: [CHECK-UNREADS] (T03KRMF9P) unreadLineVisible updated: false -> true 
+[05/01/21, 23:26:01:194] info: [API-Q] (T03KRMF9P) 39530a29-1619904360.902 apps.profile.get is RESOLVED 
+[05/01/21, 23:26:01:195] info: [API-Q] (T03KRMF9P) noversion-1619904361.045 Flannel users/info is RESOLVED 
+[05/01/21, 23:26:01:257] info: [UNKNOWN-FETCH-MANAGER] (T03KRMF9P) received T03KRMF9P:BJJV1FENM (1) 
+[05/01/21, 23:26:01:264] info: [API-Q] (T03KRMF9P) noversion-1619904361.263 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[05/01/21, 23:26:01:264] info: [API-Q] (T03KRMF9P) noversion-1619904361.263 Flannel channels/membership is ENQUEUED 
+[05/01/21, 23:26:01:265] info: [API-Q] (T03KRMF9P) noversion-1619904361.263 Flannel channels/membership is ACTIVE 
+[05/01/21, 23:26:01:310] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.309 team.info called with reason: conditional-fetching 
+[05/01/21, 23:26:01:310] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.309 team.info is ENQUEUED 
+[05/01/21, 23:26:01:311] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.309 team.info is ACTIVE 
+[05/01/21, 23:26:01:312] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.310 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[05/01/21, 23:26:01:312] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.310 help.issues.list is ENQUEUED 
+[05/01/21, 23:26:01:313] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.310 help.issues.list is ACTIVE 
+[05/01/21, 23:26:01:313] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.312 users.channelSections.list called with reason: conditional-fetch-manager 
+[05/01/21, 23:26:01:314] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.312 users.channelSections.list is ENQUEUED 
+[05/01/21, 23:26:01:314] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.312 users.channelSections.list is ACTIVE 
+[05/01/21, 23:26:01:315] info: [API-Q] (T03KRMF9P) noversion-1619904361.314 Flannel channels/info called with reason: flannel-call:channels/info 
+[05/01/21, 23:26:01:316] info: [API-Q] (T03KRMF9P) noversion-1619904361.314 Flannel channels/info is ENQUEUED 
+[05/01/21, 23:26:01:318] info: [API-Q] (T03KRMF9P) noversion-1619904361.314 Flannel channels/info is ACTIVE 
+[05/01/21, 23:26:01:318] info: [API-Q] (T03KRMF9P) noversion-1619904361.316 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/01/21, 23:26:01:319] info: [API-Q] (T03KRMF9P) noversion-1619904361.316 Flannel users/counts is ENQUEUED 
+[05/01/21, 23:26:01:319] info: [API-Q] (T03KRMF9P) noversion-1619904361.316 Flannel users/counts is ACTIVE 
+[05/01/21, 23:26:01:319] info: [API-Q] (T03KRMF9P) noversion-1619904361.317 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/01/21, 23:26:01:319] info: [API-Q] (T03KRMF9P) noversion-1619904361.317 Flannel users/counts is ENQUEUED 
+[05/01/21, 23:26:01:320] info: [API-Q] (T03KRMF9P) noversion-1619904361.317 Flannel users/counts is ACTIVE 
+[05/01/21, 23:26:01:365] info: [BOOT] Feature flag config version: 1619889206; Experiments config version: 1619889205 
+[05/01/21, 23:26:01:365] info: [BOOT] Current earliest config version: 1619889205; All config versions: {"T03KRMF9P":1619889205} 
+[05/01/21, 23:26:01:369] info: [BOOT] (T03KRMF9P) Dispatching boot data 
+[05/01/21, 23:26:01:421] info: [PLATFORM-CHANNEL-ACTI] (T03KRMF9P) Not updating count for channel C03KVERMC, as count was already set to 0 
+[05/01/21, 23:26:01:425] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.424 commands.list called with reason: loadSlashCommands 
+[05/01/21, 23:26:01:425] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.424 commands.list is ENQUEUED 
+[05/01/21, 23:26:01:426] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.424 commands.list is ACTIVE 
+[05/01/21, 23:26:01:426] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.425 i18n.translations.get called with reason: fetchTranslatedCustomStatusPresets 
+[05/01/21, 23:26:01:427] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.425 i18n.translations.get is ENQUEUED 
+[05/01/21, 23:26:01:427] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.425 i18n.translations.get is ACTIVE 
+[05/01/21, 23:26:01:429] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.427 team.whatsNew called with reason: prefs/maybeSetLocaleSideEffect 
+[05/01/21, 23:26:01:429] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.427 team.whatsNew is ENQUEUED 
+[05/01/21, 23:26:01:430] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.427 team.whatsNew is ACTIVE 
+[05/01/21, 23:26:01:430] info: [UNREAD-COUNTS] (T03KRMF9P) Counting unreads in C03KVERMC because (28) timestamps added 
+[05/01/21, 23:26:01:431] info: [BOOT] (T03KRMF9P) Boot complete 
+[05/01/21, 23:26:01:431] info: [DESKTOP-SIDE-EFFECT] (T03KRMF9P) Reacting to  {"type":"[60] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[05/01/21, 23:26:01:434] info: [API-Q] (T03KRMF9P) noversion-1619904361.263 Flannel channels/membership is RESOLVED 
+[05/01/21, 23:26:01:553] info: [PERF] (T03KRMF9P) Logged time to usable (TTU): 4736.310000000003 
+[05/01/21, 23:26:01:621] info: [API-Q] (T03KRMF9P) noversion-1619904361.316 Flannel users/counts is RESOLVED 
+[05/01/21, 23:26:01:622] info: [API-Q] (T03KRMF9P) noversion-1619904361.317 Flannel users/counts is RESOLVED 
+[05/01/21, 23:26:01:622] info: [API-Q] (T03KRMF9P) noversion-1619904361.314 Flannel channels/info is RESOLVED 
+[05/01/21, 23:26:01:624] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.309 team.info is RESOLVED 
+[05/01/21, 23:26:01:625] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.312 users.channelSections.list is RESOLVED 
+[05/01/21, 23:26:01:626] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.310 help.issues.list is RESOLVED 
+[05/01/21, 23:26:01:627] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.425 i18n.translations.get is RESOLVED 
+[05/01/21, 23:26:01:628] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.427 team.whatsNew is RESOLVED 
+[05/01/21, 23:26:01:691] info: [CHECK-UNREADS] (T03KRMF9P) Checking unreads after unread line became visible 
+[05/01/21, 23:26:01:692] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:26:01:697] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.696 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[05/01/21, 23:26:01:697] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.696 conversations.genericInfo is ENQUEUED 
+[05/01/21, 23:26:01:698] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.696 conversations.genericInfo is ACTIVE 
+[05/01/21, 23:26:01:706] info: [UNREAD-COUNTS] (T03KRMF9P) Checking unreads in C03KVERMC after a new message 
+[05/01/21, 23:26:01:707] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:26:01:843] info: [PERSIST] (T03KRMF9P) Successfully persisted state 
+[05/01/21, 23:26:01:897] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.424 commands.list is RESOLVED 
+[05/01/21, 23:26:02:028] info: [API-Q] (T03KRMF9P) 39530a29-1619904361.696 conversations.genericInfo is RESOLVED 
+[05/01/21, 23:26:02:110] info: [API-Q] (T03KRMF9P) noversion-1619904362.110 Flannel users/info called with reason: flannel-call:users/info 
+[05/01/21, 23:26:02:111] info: [API-Q] (T03KRMF9P) noversion-1619904362.110 Flannel users/info is ENQUEUED 
+[05/01/21, 23:26:02:111] info: [API-Q] (T03KRMF9P) noversion-1619904362.110 Flannel users/info is ACTIVE 
+[05/01/21, 23:26:02:156] info: [API-Q] (T03KRMF9P) noversion-1619904362.110 Flannel users/info is RESOLVED 
+[05/01/21, 23:26:05:249] info: [API-Q] (T03KRMF9P) noversion-1619904365.244 Flannel users/info called with reason: flannel-call:users/info 
+[05/01/21, 23:26:05:250] info: [API-Q] (T03KRMF9P) noversion-1619904365.244 Flannel users/info is ENQUEUED 
+[05/01/21, 23:26:05:251] info: [API-Q] (T03KRMF9P) noversion-1619904365.244 Flannel users/info is ACTIVE 
+[05/01/21, 23:26:05:296] info: [API-Q] (T03KRMF9P) noversion-1619904365.244 Flannel users/info is RESOLVED 
+[05/01/21, 23:26:05:687] info: [FOCUS-EVENT] Client window blurred 
+[05/01/21, 23:26:57:467] info: [API-Q] (T03KRMF9P) 39530a29-1619904417.462 channels.suggestions called with reason: channels-suggestions 
+[05/01/21, 23:26:57:468] info: [API-Q] (T03KRMF9P) 39530a29-1619904417.462 channels.suggestions is ENQUEUED 
+[05/01/21, 23:26:57:470] info: [API-Q] (T03KRMF9P) 39530a29-1619904417.462 channels.suggestions is ACTIVE 
+[05/01/21, 23:26:57:744] info: [API-Q] (T03KRMF9P) 39530a29-1619904417.462 channels.suggestions is RESOLVED 
+[05/01/21, 23:27:00:766] info: [CHECK-FOR-OLD-IMS] (T03KRMF9P) Within limit: 11 
+[05/01/21, 23:27:07:161] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/01/21, 23:27:07:167] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:27:09:621] info: [API-Q] (T03KRMF9P) 39530a29-1619904429.616 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/01/21, 23:27:09:621] info: [API-Q] (T03KRMF9P) 39530a29-1619904429.616 client.counts is ENQUEUED 
+[05/01/21, 23:27:09:623] info: [API-Q] (T03KRMF9P) 39530a29-1619904429.616 client.counts is ACTIVE 
+[05/01/21, 23:27:09:791] info: [API-Q] (T03KRMF9P) 39530a29-1619904429.616 client.counts is RESOLVED 
+[05/01/21, 23:27:09:798] info: [COUNTS] (T03KRMF9P) Applying counts to channels 
+[05/01/21, 23:27:09:807] info: [COUNTS] (T03KRMF9P) Recounted C03KVERMC; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[05/01/21, 23:27:09:808] info: [COUNTS] (T03KRMF9P) Threads has_unreads:false mention_count:0 
+[05/01/21, 23:27:09:809] info: [COUNTS] (T03KRMF9P) Completed counts processing 
+[05/01/21, 23:27:17:104] info: Store: SET_SYSTEM_IDLE active 
+[05/01/21, 23:27:17:112] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:31:01:124] info: [DND] (T03KRMF9P) Checking for changes in DND status for the following members: ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7,UCC3YUT28 
+[05/01/21, 23:31:01:125] info: [DND] (T03KRMF9P) Will check for changes in DND status again in 5 minutes 
+[05/01/21, 23:33:37:407] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/01/21, 23:33:37:418] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:33:57:416] info: Store: SET_SYSTEM_IDLE active 
+[05/01/21, 23:33:57:423] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:34:47:509] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/01/21, 23:34:47:514] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:34:57:457] info: Store: SET_SYSTEM_IDLE active 
+[05/01/21, 23:34:57:465] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:35:27:517] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/01/21, 23:35:27:522] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:35:47:480] info: Store: SET_SYSTEM_IDLE active 
+[05/01/21, 23:35:47:488] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:36:01:129] info: [DND] (T03KRMF9P) Checking for changes in DND status for the following members: ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7,UCC3YUT28 
+[05/01/21, 23:36:01:130] info: [DND] (T03KRMF9P) Will check for changes in DND status again in 5 minutes 
+[05/01/21, 23:38:37:613] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/01/21, 23:38:37:624] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:40:17:692] info: Store: SET_SYSTEM_IDLE active 
+[05/01/21, 23:40:17:698] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:41:01:133] info: [DND] (T03KRMF9P) Checking for changes in DND status for the following members: ULSBEE0RX,UUDU50SHX,U03KUE0FU,U5W2RT24T,UMSAF59M0,U03KTNH1X,U7UU80DH7,UCC3YUT28 
+[05/01/21, 23:41:01:134] info: [DND] (T03KRMF9P) Will check for changes in DND status again in 5 minutes 
+[05/01/21, 23:41:17:736] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/01/21, 23:41:17:742] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:41:27:774] info: Store: SET_SYSTEM_IDLE active 
+[05/01/21, 23:41:27:778] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:42:00:806] info: [CHECK-FOR-OLD-IMS] (T03KRMF9P) Within limit: 11 
+[05/01/21, 23:43:47:879] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/01/21, 23:43:47:882] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/01/21, 23:45:05:534] info: [FOCUS-EVENT] Client window focused 
+[05/01/21, 23:45:05:577] info: [FOCUS-EVENT] Client window blurred 
+[05/01/21, 23:45:05:646] info: [CHECK-UNREADS] (T03KRMF9P) Checking unreads after window became focused 
+[05/01/21, 23:45:05:646] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because attention not on chat (window_not_focused) 
+[05/01/21, 23:45:05:943] info: [FOCUS-EVENT] Client window focused 
+[05/01/21, 23:45:06:028] info: [CHECK-UNREADS] (T03KRMF9P) Checking unreads after window became focused 
+[05/01/21, 23:45:06:028] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:45:06:029] info: [FOCUS-EVENT] Client window blurred 
+[05/01/21, 23:45:06:374] info: [FOCUS-EVENT] Client window focused 
+[05/01/21, 23:45:06:448] info: [CHECK-UNREADS] (T03KRMF9P) Checking unreads after window became focused 
+[05/01/21, 23:45:06:448] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:45:06:449] info: [FOCUS-EVENT] Client window blurred 
+[05/01/21, 23:45:06:842] info: [FOCUS-EVENT] Client window focused 
+[05/01/21, 23:45:06:897] info: [CHECK-UNREADS] (T03KRMF9P) Checking unreads after window became focused 
+[05/01/21, 23:45:06:897] info: [CHECK-UNREADS] (T03KRMF9P) Not marking C03KVERMC because last_read >= latest && channel is read 
+[05/01/21, 23:45:06:898] info: [FOCUS-EVENT] Client window blurred 
+[05/01/21, 23:45:07:927] info: Store: SET_SYSTEM_IDLE active 
+[05/01/21, 23:45:07:928] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 

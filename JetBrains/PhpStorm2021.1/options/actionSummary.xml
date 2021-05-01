@@ -1,5 +1,11 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="CodeCompletion">
+      <i c="2" l="1619906739769" />
+    </e>
+    <e n="Console.Jdbc.Execute">
+      <i c="4" l="1619906743321" />
+    </e>
     <e n="DatabaseView.AddActionGroupPopup">
       <i c="1" l="1619891536185" />
     </e>
@@ -10,10 +16,22 @@
       <i c="1" l="1619891562876" />
     </e>
     <e n="EditorBackSpace">
-      <i c="3" l="1619891660642" />
+      <i c="53" l="1619906750954" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="4" l="1619906743079" />
+    </e>
+    <e n="EditorDown">
+      <i c="2" l="1619906742685" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1619906740854" />
     </e>
     <e n="EditorPaste">
       <i c="1" l="1619891611999" />
+    </e>
+    <e n="Jdbc.OpenEditor.Console">
+      <i c="2" l="1619906726842" />
     </e>
     <e n="SaveAll">
       <i c="1" l="1619891665276" />
@@ -30,8 +48,14 @@
     <e n="com.intellij.database.dataSource.LocalDataSourceManager$2">
       <i c="1" l="1619891538492" />
     </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1619904603633" />
+    </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
       <i c="2" l="1619891644715" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="1" l="1619907322470" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
       <i c="1" l="1619891622268" />

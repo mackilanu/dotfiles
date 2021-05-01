@@ -3940,3 +3940,108 @@
 {
   "versionId": 0
 }
+[05/01/21, 23:25:56:754] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.15.0, linux 5.11.16-arch1-1 on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[05/01/21, 23:25:56:754] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 2
+}
+[05/01/21, 23:25:56:755] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "Europe/Stockholm",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.15.0",
+  "PACKAGE_MANIFEST.commit": "4dffcb7",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/01/21, 23:25:56:888] info: Boots up new service worker version 
+{
+  "scriptUrl": "https://app.slack.com/service-worker.js",
+  "scope": "https://app.slack.com/",
+  "renderProcessId": 4,
+  "versionId": 0
+}
+[05/01/21, 23:25:56:889] info: May-1 23:25:56.886 [SERVICE-WORKER] normalizing request URL for cache https://app.slack.com/client/T03KRMF9P 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:56:895] info: May-1 23:25:56.891 [SERVICE-WORKER] responding from cache (normalized) /boot/client.html 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:034] info: May-1 23:25:57.340 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/slack-icons-v2-3636ccd.woff2 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:035] info: May-1 23:25:57.340 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/lato-regular-d9ce515.woff2 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:036] info: May-1 23:25:57.350 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/lato-black-b64f5e4.woff2 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:082] info: May-1 23:25:57.810 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/slack-kit-styles.76df0fa.css 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:084] info: May-1 23:25:57.810 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/client-boot-styles.b7bd745.css 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:085] info: May-1 23:25:57.810 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/helper-styles.38e0f5f.css 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:085] info: May-1 23:25:57.810 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/gantry-vendors.aa99b79.min.js 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:086] info: May-1 23:25:57.810 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/gantry-shared.00c01a9.min.js 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:086] info: May-1 23:25:57.810 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/lato-bold-4b1dc11.woff2 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:087] info: May-1 23:25:57.820 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/client-boot.53227f0.min.js 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:381] info: May-1 23:25:57.379 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/gantry-vendors-async.3383a15.min.js 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:381] info: May-1 23:25:57.380 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/gantry-vendors-async-client.2912f17.min.js 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:57:382] info: May-1 23:25:57.380 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/client-boot-imports.f5cbc72.min.js 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:59:421] info: May-1 23:25:59.421 [SERVICE-WORKER] responding from cache https://a.slack-edge.com/bv1-9/lato-italic-5bbcd6c.woff2 
+{
+  "versionId": 0
+}
+[05/01/21, 23:25:59:887] info: May-1 23:25:59.886 [SERVICE-WORKER] responding with fetch https://slack-imgs.com/ 
+{
+  "versionId": 0
+}
+[05/01/21, 23:26:00:333] info: May-1 23:26:00.332 [SERVICE-WORKER] responding from cache https://bebetteronline.slack.com/api/api.features?_x_gantry=true&_x_team_id=T03KRMF9P&platform=sonic&token=[REDACTED] 
+{
+  "versionId": 0
+}
+[05/01/21, 23:26:00:791] info: May-1 23:26:00.790 [SERVICE-WORKER] responding from cache https://bebetteronline.slack.com/api/experiments.getByUser?_x_gantry=true&_x_user_id=UCC3YUT28&token=[REDACTED] 
+{
+  "versionId": 0
+}

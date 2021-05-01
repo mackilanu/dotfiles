@@ -15,7 +15,7 @@
     <property name="appcds.runOnSecondStart" value="PS-211.7142.44-4bd63ed619973783667f1fbddf9a8c04df5e5106dbec361a269036f17142e378" />
     <property name="evlsprt3.211" value="19" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/ebeslut_localhost-2021_03_23_11_50_58-dump.sql&#10;/home/marcus/workspace/ebeslut" />
-    <property name="file.gist.reindex.count" value="3" />
+    <property name="file.gist.reindex.count" value="11" />
     <property name="fileTypeChangedCounter" value="1" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />

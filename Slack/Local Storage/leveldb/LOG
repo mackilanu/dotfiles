@@ -1,3 +1,3 @@
-2021/05/01-19:51:15.310 1309 Reusing MANIFEST /home/marcus/.config/Slack/Local Storage/leveldb/MANIFEST-000001
-2021/05/01-19:51:15.313 1309 Recovering log #3
-2021/05/01-19:51:15.313 1309 Reusing old log /home/marcus/.config/Slack/Local Storage/leveldb/000003.log 
+2021/05/01-23:25:56.587 b1f Reusing MANIFEST /home/marcus/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2021/05/01-23:25:56.587 b1f Recovering log #3
+2021/05/01-23:25:56.589 b1f Reusing old log /home/marcus/.config/Slack/Local Storage/leveldb/000003.log 
