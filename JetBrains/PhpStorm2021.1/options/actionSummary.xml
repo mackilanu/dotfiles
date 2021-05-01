@@ -1,0 +1,40 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="DatabaseView.AddActionGroupPopup">
+      <i c="1" l="1619891536185" />
+    </e>
+    <e n="DatabaseView.ImportFromSql">
+      <i c="1" l="1619891568606" />
+    </e>
+    <e n="DatabaseView.Refresh">
+      <i c="1" l="1619891562876" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="3" l="1619891660642" />
+    </e>
+    <e n="EditorPaste">
+      <i c="1" l="1619891611999" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1619891665276" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="2" l="1619891638551" />
+    </e>
+    <e n="ShowPopupMenu">
+      <i c="1" l="1619891661674" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1619890918915" />
+    </e>
+    <e n="com.intellij.database.dataSource.LocalDataSourceManager$2">
+      <i c="1" l="1619891538492" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="2" l="1619891644715" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="1" l="1619891622268" />
+    </e>
+  </component>
+</application>
