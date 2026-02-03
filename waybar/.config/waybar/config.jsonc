@@ -77,7 +77,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "omarchy-launch-wifi"
+    "on-click": "hyprctl dispatch exec \"[float;center;] kitty -e impala\""
   },
   "battery": {
     "format": "{capacity}% {icon}",
@@ -115,7 +115,9 @@
     "format-muted": "",
     "format-icons": {
       "default": ["", "", ""]
-    }
+    },
+    "on-scroll-up": "swayosd-client --output-volume raise",
+    "on-scroll-down": "swayosd-client --output-volume lower",
   },
   "group/tray-expander": {
     "orientation": "inherit",

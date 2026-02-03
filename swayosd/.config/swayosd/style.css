@@ -1,0 +1,43 @@
+@define-color accent              #7d82d9;
+@define-color foreground          #ffcead;
+@define-color background          #060B1E;
+
+/* UI-specific */
+@define-color background-color    rgba(6, 11, 30, 0.97);
+@define-color border-color        #7d82d9;
+
+@define-color label               #ffcead;
+@define-color image               #ffcead;
+
+@define-color progress            #7d82d9;
+@define-color progress-bg         rgba(255, 206, 173, 0.15);
+
+/* Optional muted / inactive */
+@define-color muted               #6d7db6;
+
+window {
+  border-radius: 0;
+  opacity: 0.97;
+  border: 2px solid @border-color;
+
+  background-color: @background-color;
+}
+
+label {
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 11pt;
+
+  color: @label;
+}
+
+image {
+  color: @image;
+}
+
+progressbar {
+  border-radius: 0;
+}
+
+progress {
+  background-color: @progress;
+}

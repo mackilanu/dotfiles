@@ -1,0 +1,90 @@
+/* Ethereal - hard override */
+
+* {
+    bg:            #060B1E;
+    fg:            #ffcead;
+    accent:        #7d82d9;
+    muted:         #6d7db6;
+
+    red:           #ED5B5A;
+
+    /* Force defaults */
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+window {
+    width: 520px;
+    border: 1px;
+    border-color: @accent;
+    border-radius: 14px;
+    padding: 12px;
+
+    /* Slight transparency */
+    background-color: rgba(6, 11, 30, 0.90);
+}
+
+mainbox {
+    background-color: transparent;
+    spacing: 10px;
+}
+
+inputbar {
+    background-color: rgba(6, 11, 30, 0.35);
+    border: 1px;
+    border-color: rgba(125, 130, 217, 0.30);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+prompt {
+    background-color: transparent;
+    text-color: @accent;
+    padding: 0px 6px 0px 6px;
+}
+
+entry {
+    background-color: transparent;
+    text-color: @fg;
+    padding: 0px 6px 0px 6px;
+}
+
+listview {
+    background-color: transparent;
+    lines: 8;
+    spacing: 6px;
+    fixed-height: false;
+}
+
+element {
+    background-color: transparent;
+    text-color: @fg;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element selected {
+    background-color: rgba(125, 130, 217, 0.18);
+    text-color: @fg;
+}
+
+element urgent {
+    background-color: @red;
+    text-color: @bg;
+}
+
+scrollbar {
+    background-color: transparent;
+    handle-color: @accent;
+    width: 2px;
+}
+listview {
+    lines: 8;
+    fixed-height: true;
+}
+
