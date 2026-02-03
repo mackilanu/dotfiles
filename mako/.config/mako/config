@@ -1,27 +1,35 @@
-sort=-time
-layer=overlay
-background-color=#2e3440
-width=300
-height=110
+background-color=#060B1E
+text-color=#ffcead
+border-color=#7d82d9
 border-size=2
-border-color=#88c0d0
-border-radius=15
-icons=0
-max-icon-size=64
-default-timeout=5000
-ignore-timeout=1
-font=JetBrainsMono Nerd 14
+border-radius=12
+padding=12
+margin=10
+width=360
 
+default-timeout=6000
+
+font=JetBrainsMono Nerd Font 10
+
+# Slightly transparent background (mako supports ARGB)
+background-color=#060B1EE6
+
+# Grouping
+group-by=app-name
+
+# Progress bars (if your mako supports it)
+progress-color=over #7d82d9
+
+# Urgency styling
 [urgency=low]
-border-color=#cccccc
+border-color=#6d7db6
+default-timeout=4000
 
 [urgency=normal]
-border-color=#d08770
+border-color=#7d82d9
+default-timeout=6000
 
-[urgency=high]
-border-color=#bf616a
+[urgency=critical]
+border-color=#ED5B5A
+text-color=#ffcead
 default-timeout=0
-
-[category=mpd]
-default-timeout=2000
-group-by=category
