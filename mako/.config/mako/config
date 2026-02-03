@@ -23,7 +23,7 @@ progress-color=over #7d82d9
 # Urgency styling
 [urgency=low]
 border-color=#6d7db6
-default-timeout=4000
+default-timeout=6000
 
 [urgency=normal]
 border-color=#7d82d9
@@ -32,4 +32,4 @@ default-timeout=6000
 [urgency=critical]
 border-color=#ED5B5A
 text-color=#ffcead
-default-timeout=0
+default-timeout=6000
