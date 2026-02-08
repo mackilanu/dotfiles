@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+chosen=$(printf " Power Off\n Reboot\n Suspend\n Logout\n Lock\n" |
+  rofi -dmenu -no-show-icons -theme ~/.config/rofi/ethereal.rasi -i -p "Power Menu")
+
+case "$chosen" in
+" Power Off")
+  systemctl poweroff
+  ;;
+" Reboot")
+  systemctl reboot
+  ;;
+" Suspend")
+  systemctl suspend
+  ;;
+" Logout")
+  hyprctl dispatch exit
+  ;;
+" Lock")
+  hyprlock
+  ;;
+esac
